@@ -13,11 +13,19 @@
     height: 600px;
     width: 600px;
     animation-delay: 0s;
-    animation-direction: reverse;
-    animation-duration: 20s;
+    animation-direction: normal;
+    animation-duration: 100s;
     animation-fill-mode: none;
     animation-iteration-count: infinite;
     animation-name: rotation;
     animation-play-state: running;
     animation-timing-function: linear
+}
+
+blockquote {
+    margin: 0 0 1rem;
+    color: aqua;
+    text-align: right;
+
+
 }
