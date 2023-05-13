@@ -33,6 +33,7 @@
     <meta name="HandheldFriendly" content="true" />
     <title>7Caballa</title>
     <link rel="stylesheet" href="css/theme.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
 
     <style>
       /* inter-300 - latin */
@@ -76,6 +77,9 @@
           /* Chrome 26+, Opera 23+, Firefox 39+ */
             url("fonts/inter-v12-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
       }
+
+      
+
     </style>
   </head>
 
@@ -83,7 +87,9 @@
     class="bg-black text-white mt-0"
     data-bs-spy="scroll"
     data-bs-target="#navScroll"
+    background="img/banner.jpeg"
   >
+
     <nav
       id="navScroll"
       class="navbar navbar-dark bg-black fixed-top px-vw-5"
@@ -112,12 +118,12 @@
           <span class="ms-md-1 mt-1 fw-bolder me-md-5">7Caballa</span>
         </a>
 
-        <ul
+        <!-- <ul
           class="navbar-nav mx-auto mb-2 mb-lg-0 list-group list-group-horizontal"
         >
           <li class="nav-item">
-            <a class="nav-link fs-5" href="index.html" aria-label="Homepage">
-              Home
+            <a class="nav-link fs-5" href="#" aria-label="Homepage">
+              Início
             </a>
           </li>
           <li class="nav-item">
@@ -138,7 +144,7 @@
               System
             </a>
           </li>
-        </ul>
+        </ul> -->
         <a
           href="#"
           aria-label="Download this template"
@@ -149,7 +155,10 @@
       </div>
     </nav>
 
+
+
     <main>
+
       <div
         class="w-100 overflow-hidden position-relative bg-black text-white"
         data-aos="fade"
@@ -163,7 +172,11 @@
           <div
             class="row d-flex align-items-center justify-content-center py-vh-5"
           >
+
+          <img id="horoscope" src="img/wheel.png" alt="rodinha do horoscopo">
             <div class="col-12 col-xl-10">
+
+
               <span class="h5 text-secondary fw-lighter">Our Mission</span>
               <h1 class="display-huge mt-3 mb-3 lh-1">
                 We do ordinary stuff for cool people
@@ -970,6 +983,8 @@
         >
       </div>
     </footer>
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/aos.js"></script>
